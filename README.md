@@ -1,4 +1,4 @@
-# EveryAutomate
+# Every Automate
 
 Welcome to our GitHub Pages site. Here you'll find information about our project.
 
