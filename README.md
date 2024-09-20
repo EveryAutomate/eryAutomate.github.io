@@ -7,7 +7,7 @@ Welcome to our GitHub Pages site. Here you'll find information about our project
 
 - [Business Model](src/Business_model.md)
 - [Business Goals](src/Business_goals.md)
-- [Customer Journey](src/Customer_journey.md)
+- [Customer Journey](src/Customer_journey_map.md)
 - [Empathy Map](src/Empathy_map.md)
 - [Features](src/Features.md)
 - [Impact map](src/impact_mapping.md)
