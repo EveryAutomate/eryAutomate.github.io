@@ -14,10 +14,13 @@ theme: jekyll-theme-minimal
 # Use README.md as the index page
 index_page: README.md
 
-# Exclude HTML files (except those generated from Markdown)
+# Exclude directories and/or files from the conversion
 exclude:
-  - "*.html"
-  - "**/*.html"
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
 
 # Include files
 include:
