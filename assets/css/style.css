@@ -1,0 +1,29 @@
+
+@import "{{ site.theme }}";
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  float: none;
+  position: static;
+}
+
+section {
+  width: 100%;
+  float: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
