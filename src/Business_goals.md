@@ -1,5 +1,12 @@
 ## Business Goals
 
+## Navigation
+
+- [Features](features.md)
+- [Stakeholders](stakeholders.md)
+- [Business Goals](business_goals.md)
+
+
 1. Streamline processes by October 4th
    - Administration
    - Product management

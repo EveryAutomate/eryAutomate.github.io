@@ -1,18 +1,41 @@
-theme: jekyll-theme-minimal
-title: EveryAutomate
-description: Welcome to our GitHub Pages site
+name: Build and Deploy GitHub Pages
 
-# Specify which folders Jekyll should include
-include:
-  - src
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-# Specify permalink structure
-permalink: /:title/
+# Add this permissions block
+permissions:
+  contents: write
 
-# Set the default layout for pages
-defaults:
-  -
-    scope:
-      path: "src"
-    values:
-      layout: "page"
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Build site
+      run: bundle exec jekyll build
+
+    - name: Deploy to GitHub Pages
+      if: github.event_name == 'push'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        publish_branch: gh-pages
