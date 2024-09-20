@@ -1,6 +1,15 @@
+# Site settings
+title: Your Site Title
+description: Your site description
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://everyautomate.github.io" # Replace with your actual GitHub Pages URL
+
+# Add this line to specify your repository
+repository: everyautomate/everyautomate.github.io
+
+# Build settings
+markdown: kramdown
 theme: jekyll-theme-minimal
-title: Every Automate
-description: Welcome to our GitHub Pages site
 
 # Specify which folders Jekyll should include
 include:
