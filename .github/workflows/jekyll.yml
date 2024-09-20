@@ -23,7 +23,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'  # GitHub Pages currently uses Ruby 2.7.x
+          ruby-version: '3.0'  # Use Ruby 3.0
           bundler-cache: true
       - name: Setup Pages
         id: pages
