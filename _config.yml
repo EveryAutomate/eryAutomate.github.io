@@ -1,6 +1,6 @@
 # Site settings
-title: Your Site Title
-description: Your site description
+title: Every Automate
+description: Automation at its finest
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://everyautomate.github.io" # Replace with your actual GitHub Pages URL
 
