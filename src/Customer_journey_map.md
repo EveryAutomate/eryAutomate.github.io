@@ -1,3 +1,11 @@
+
+---
+layout: default
+title: Customer
+---
+
+# Customer Journey
+
 ## Navigation
 
 - [Business Model](src/Business_model.md)

@@ -1,4 +1,11 @@
 
+---
+layout: default
+title: Imapact Mapping
+---
+
+# Impact Mapping
+
 ## Navigation
 
 - [Business Model](src/Business_model.md)
