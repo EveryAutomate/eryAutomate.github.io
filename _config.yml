@@ -11,9 +11,17 @@ repository: everyautomate/everyautomate.github.io
 markdown: kramdown
 theme: jekyll-theme-minimal
 
-# Specify which folders Jekyll should include
+# Use README.md as the index page
+index_page: README.md
+
+# Exclude HTML files (except those generated from Markdown)
+exclude:
+  - "*.html"
+  - "**/*.html"
+
+# Include files
 include:
-  - src
+  - README.md
 
 # Specify permalink structure
 permalink: /:title/
