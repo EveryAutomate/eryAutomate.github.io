@@ -20,12 +20,16 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - README.md
 
 # Include files
 include:
   - README.md
 
+# Plugins
+plugins:
+  - jekyll-feed
+  # Add other plugins you're using here
+  
 # Specify permalink structure
 permalink: /:title/
 
