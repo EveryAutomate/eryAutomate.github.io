@@ -1,3 +1,18 @@
 theme: jekyll-theme-minimal
 title: EveryAutomate
 description: Welcome to our GitHub Pages site
+
+# Specify which folders Jekyll should include
+include:
+  - src
+
+# Specify permalink structure
+permalink: /:title/
+
+# Set the default layout for pages
+defaults:
+  -
+    scope:
+      path: "src"
+    values:
+      layout: "page"
