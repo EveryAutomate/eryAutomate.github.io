@@ -1,4 +1,4 @@
-# Organization Name
+# EveryAutomate
 
 Welcome to our GitHub Pages site. Here you'll find information about our project.
 
