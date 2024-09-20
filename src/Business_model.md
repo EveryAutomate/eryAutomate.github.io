@@ -1,3 +1,11 @@
+
+---
+layout: default
+title: Business Model
+---
+
+# Business Model
+
 ## Navigation
 
 - [Business Model](src/Business_model.md)

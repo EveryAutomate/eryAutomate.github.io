@@ -1,3 +1,11 @@
+
+---
+layout: default
+title: Empathy Maps
+---
+
+# Empathy Maps
+
 ## Navigation
 
 - [Business Model](src/Business_model.md)
