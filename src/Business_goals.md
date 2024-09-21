@@ -8,7 +8,7 @@ title: Home
 
 1. Streamline processes by October 4th
    - Administration
-   - Product management
+   - Product management --
    - Sales and marketing
    - Leadership
 

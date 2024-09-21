@@ -1,77 +1,79 @@
----
-layout: default
-title: User_stories
----
+# Botea User Story
 
-# User Stories
+## Landing Page
+- User has landed on the landing page
+  - They are aware of our organization and offerings.
+  - They know about our solutions: building AI apps, automating business processes using AI.
+  - They understand our pricing model (contact sales).
+  - They know what the solutions offer.
+  - User gains trust in the solutions (awareness, interest, desire, action).
+  - The user decides to log in.
 
-Here's a filled-out structure for your product along with suggestions for improvement:
+## Login & Signup
+- User logs in or signs up by providing the necessary information.
+- User confirms and agrees to our terms of service.
+- User sets up billing information (upfront payment requested to show investor interest).
+- User is redirected to their dashboard.
 
-### **Product Name:**
-BotEA
+## Dashboard Access
+- User has access to various resources.
+- User can navigate easily without a learning curve.
+- User can interact with a virtual assistant for queries and conversation.
 
-### **Activities: High-Level Tasks Users Can Do in the Digital Product**
-1. Align business objectives with provided templates.
-2. Explore viable solutions to identified problems.
-3. Model and design solutions collaboratively.
-4. Develop and automate components of the product.
-5. Review and validate final outputs and artifacts.
+## New Project Creation
+- User initiates and configures a new project.
+- User decides to proceed to the next phase.
+- User views the development workflow (current progress, past actions, upcoming steps, estimated completion).
 
-### **Steps: Steps Users Take to Accomplish the Activities**
-1. **Alignment Phase:**
-   - User accesses the platform.
-   - System collects information about the user's business and objectives.
-   - User completes a structured template to clarify goals.
+## Discovery Phase (Spreading Domain Knowledge)
+- User answers questions regarding the project.
+- AI provides canvases for the user to fill out.
+- AI is available for guidance and questions throughout the process.
+- User can only proceed after fully completing the canvases.
+- AI pre-fills some canvases based on previous answers.
+- Emphasis is placed on thoroughly refining this phase.
+- AI suggests improvements for the canvases.
+- Users can upload pre-made documents to assist AI in auto-filling the canvases.
 
-2. **Discovery Phase:**
-   - User explores potential solutions to identified problems.
-   - System generates options based on user input.
-   - User validates generated solutions for relevance.
+## Design Collaboration
+- User accesses a design pad (similar to Excalidraw).
+- AI visualizes the canvas responses using UML diagrams.
+- Diagrams map out use cases and capture the process flow.
+- AI explains the diagrams to the user.
+- User can clarify aspects of the diagrams with AI.
+- User can manually edit or ask AI to modify the diagrams.
+- User confirms the design is satisfactory.
+- AI might suggest further improvements.
 
-3. **Design Phase:**
-   - System guides the user in decomposing solutions into components.
-   - User models solutions using provided tools and templates.
-   - System offers feedback and suggestions based on user actions.
+## System Design Phase
+- User continues to have access to the design pad.
+- AI guides the user in decomposing the solution, strategizing, connecting, organizing, and defining the system design.
+- Steps are sequential, with diagrams and tools facilitated by AI and the system.
+- Once the user and AI establish a ubiquitous language, the next phase is initiated.
 
-4. **Development Phase:**
-   - System automates coding and configuration based on user designs.
-   - User reviews automated outputs and provides adjustments as needed.
-   - System facilitates collaboration among team members.
+## Code Generation & Testing
+- AI generates development artifacts.
+- User (or a domain expert) ensures AI-generated code aligns with the design.
+- The development environment is configured based on project requirements.
+- The application architecture is set up.
+- AI generates code from the artifacts (using tools like pylint to reduce bugs).
+- The system automates tests (unit, integration, system, A/B testing).
+- The system fixes any bugs encountered.
+- User inspects the developed system to see if it meets expectations.
 
-5. **Next Steps:**
-   - System guides users on how to implement solutions.
-   - User can access a dashboard to manage product progress and updates.
+## Feedback & Iteration
+- User reviews the developed system and provides feedback.
+- AI implements the required improvements iteratively.
 
-### **Details: Granular Discrete Interactions to Complete the Tasks**
-- Users fill out templates through an intuitive form interface.
-- AI assists in suggesting enhancements based on inputs.
-- Drag-and-drop functionality for modeling designs.
-- Automated generation of code snippets based on user-defined parameters.
-- Real-time collaboration tools for team feedback and discussion.
-- Notifications and reminders for next steps or tasks to complete.
+## Deployment Phase
+- AI performs quality assurance on the system.
+- AI configures the system for deployment with CI/CD tools and automation workflows.
+- The system is deployed.
 
-### **Tags:** 
-- PoC: [Date]
-- MVP: [Date]
-- MMP: [Date]
+## Monitoring & Improvement
+- Metrics on the deployed system are continuously collected.
+- AI suggests improvements based on the product strategy defined in the canvases.
+- User approves necessary improvements.
 
----
-
-### **Improvement Suggestions:**
-
-#### Activities:
-- Consider adding a **Feedback Loop** activity where users can provide feedback on solutions and the system can iteratively improve suggestions.
-
-#### Steps:
-- Include a **Review and Approval Step** after the development phase, where users can finalize solutions before deployment.
-
-#### Details:
-- Implement **Version Control** for designs and code, allowing users to track changes and revert if needed.
-- Add **Analytics and Reporting** features so users can measure the success of their implementations.
-
-#### Capabilities:
-- Include **Integration with Third-Party Tools** to streamline data flow and enhance productivity.
-- Introduce a **Learning Center** or resources section for users to access best practices, tutorials, and case studies.
-- Consider adding **Customization Options** for templates and processes to better cater to diverse user needs.
-
-These enhancements can create a more robust user experience and further streamline the product development process for your users.
+## Next Steps
+- TBD based on project progress and user interactions.
