@@ -1,0 +1,192 @@
+Start System Design Phase: The phase begins when the user enters this stage of the project.
+AI Initiates Decomposition Process: The AI starts guiding the user through the system decomposition.
+Create User Stories:
+
+AI prompts for user story ideas
+User provides initial user stories
+AI suggests additional user stories
+User and AI refine user stories together
+
+
+Develop Scenarios:
+
+AI generates scenario outlines
+User adds scenario details
+AI suggests edge cases
+User and AI finalize scenarios
+
+
+Generate Initial UML Diagrams:
+
+AI creates class diagrams
+AI generates sequence diagrams
+AI produces activity diagrams
+AI develops use case diagrams
+
+
+AI Guides Strategy Definition:
+
+AI suggests architectural patterns
+User selects preferred patterns
+AI recommends design principles
+User and AI agree on strategy
+
+
+AI Assists with Connections Identification:
+
+AI identifies system interfaces
+AI suggests integration points
+User confirms or modifies connections
+AI updates UML diagrams with connections
+
+
+AI Helps Organize System Components:
+
+AI proposes component groupings
+User provides input on organization
+AI suggests optimizations
+User and AI finalize component organization
+
+
+AI Applies Color Highlighting to UML Diagrams:
+
+AI highlights core components
+AI colors integration points
+AI emphasizes key relationships
+AI marks critical paths
+
+
+AI Adds Explanatory Notes to Diagrams:
+
+AI adds context to complex parts
+AI explains design decisions
+AI notes potential issues or risks
+AI provides performance considerations
+
+
+User Reviews UML Diagrams: The user examines the refined and annotated diagrams.
+Feedback Loop: If the user is not satisfied, they provide feedback, and the AI refines the UML diagrams. This loop continues until the user is satisfied.
+Finalize Common Design Language: Once the user is satisfied, the AI and user finalize a common language for the design.
+Automatic Initiation of Next Phase: The system automatically moves to the next phase of the project.
+
+
+---
+
+
+Knowledge Crunching: This crucial first step involves deep dives into the domain with experts.
+
+Conduct domain expert interviews
+Analyze existing documentation
+Hold collaborative modeling sessions
+AI assists in synthesizing knowledge
+
+
+Define Ubiquitous Language: Establishing a common language is key in DDD.
+
+Identify key domain terms
+Create a glossary
+Refine terms with domain experts
+AI suggests language refinements
+
+
+Identify Bounded Contexts: This step helps in managing complexity by dividing the domain.
+
+Analyze business capabilities
+Identify natural divisions in the domain
+Define context boundaries
+AI suggests potential contexts
+
+
+Create Context Map: This visualizes relationships between bounded contexts.
+
+Identify relationships between contexts
+Define integration patterns
+Visualize context interactions
+AI assists in optimizing the context map
+
+
+Define Domain Model: This step focuses on modeling the core domain and subdomains.
+
+Identify core domain
+Model subdomains
+Create domain narratives
+AI helps refine the domain model
+
+
+Identify Aggregates: This step defines transaction boundaries within the model.
+
+Determine transaction boundaries
+Identify aggregate roots
+Define aggregate relationships
+AI suggests aggregate optimizations
+
+
+Define Entities and Value Objects: This step classifies domain objects.
+
+Identify entities with unique identity
+Define value objects
+Establish entity lifecycles
+AI assists in classifying objects
+
+
+Identify Domain Events: This step captures important occurrences in the domain.
+
+Identify key state changes
+Define event properties
+Establish event flows
+AI suggests additional relevant events
+
+
+Design Domain Services: This step defines stateless operations that don't naturally fit within entities.
+
+Identify stateless operations
+Define service interfaces
+Establish service responsibilities
+AI recommends service optimizations
+
+
+Develop Strategic Design: This step aligns the design with business goals.
+
+Identify core, supporting, and generic subdomains
+Define domain vision statement
+Establish architecture patterns
+AI assists in strategic decision-making
+
+
+Create UML Diagrams: This step visualizes the design.
+
+Develop class diagrams for aggregates
+Create sequence diagrams for key flows
+Design state diagrams for entities
+AI generates and refines UML diagrams
+
+
+Apply DDD Patterns: This step implements specific DDD patterns.
+
+Implement repositories
+Design factories
+Apply specification pattern
+AI suggests appropriate DDD patterns
+
+
+Review and Refine Design: This step allows for iteration and improvement.
+Finalize Design: Once satisfied, the design is finalized.
+Prepare for Implementation: This step transitions the design to the development phase.
+
+
+phase name:
+objective:
+Keyactvities with detailed steps:
+inputs:
+tools and methods:
+Roles and responsibilities:
+Milestones:
+Expected deliverables:
+Metrics for success:
+Quality assurance:
+Risks and mitigation:
+Dependencies:
+Next steps:
+
+
+Align - discover - decompose - strategize - connect - organize - define - code
